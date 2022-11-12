@@ -1,0 +1,50 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:divider="?android:attr/listDivider"
+    android:overScrollMode="never"
+    android:showDividers="middle|beginning|end"
+    app:allowDividerAbove="true"
+    app:allowDividerBelow="true">
+
+    <PreferenceCategory app:title="Account Preferences"
+        app:iconSpaceReserved="false">
+
+        <Preference
+            android:clickable="true"
+            app:iconSpaceReserved="false"
+            app:key="@string/settings_edit_prof_button"
+            app:summary="User Profile"
+            app:title="Name, Email, Class, etc" />
+        <CheckBoxPreference
+            app:iconSpaceReserved="false"
+            app:key="@string/pref_record_privacy"
+            app:summary="Posting your records anonymously"
+            app:title="Privacy Setting" />
+    </PreferenceCategory>
+    <PreferenceCategory app:title="Additional Settings"
+        app:iconSpaceReserved="false">
+        <ListPreference
+            app:iconSpaceReserved="false"
+            app:defaultValue="metric"
+            app:entries="@array/unit_entries"
+            app:entryValues="@array/unit_values"
+            app:key="@string/unit_system"
+            app:summary="Select the units"
+            app:title="Unit Preference" />
+        <EditTextPreference
+            app:iconSpaceReserved="false"
+            app:key="@string/pref_comment"
+            app:summary="Please enter your comments"
+            app:title="Comments" />
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="Misc."
+        app:iconSpaceReserved="false">
+        <Preference
+            app:iconSpaceReserved="false"
+            app:key="@string/settings_webpage_button"
+            app:summary="https://www.sfu.ca/computing.html"
+            app:title="Webpage" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

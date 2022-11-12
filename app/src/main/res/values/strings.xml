@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Jetson_Foster_MyRuns</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+
+    <string name="authority">com.example.jetson_foster</string>
+
+
+    //Profile Activity strings
+    <string name="profile_name_hint">Your Name</string>
+    <string name="profile_email_hint">Your Email</string>
+    <string name="profile_phone_hint">Your Phone Number</string>
+    <string name="profile_class_hint">eg. 2012</string>
+    <string name="profile_major_hint">Your Major</string>
+
+    <string name="profile_photo_label">Profile Photo:</string>
+    <string name="profile_name_label">Name</string>
+    <string name="profile_email_label">Email</string>
+    <string name="profile_phone_label">Phone</string>
+    <string name="profile_gender_label">Gender</string>
+    <string name="profile_class_label">Class</string>
+    <string name="profile_major_label">Major</string>
+
+
+    <string name="profile_photo_change_text">CHANGE</string>
+    <string name="profile_gender_male_text">Male</string>
+    <string name="profile_gender_female_text">Female</string>
+    <string name="profile_gender_other_text">Other</string>
+    <string name="profile_save_text">SAVE</string>
+    <string name="profile_cancel_text">CANCEL</string>
+
+    <string name="profile_spref_key">profile_preferences</string>
+    <string name="preference_name">"pref_name"</string>
+    <string name="preference_email">pref_email</string>
+    <string name="preference_phone">pref_phone</string>
+    <string name="preference_gender">pref_gender</string>
+    <string name="preference_class">pref_class</string>
+    <string name="preference_major">pref_major</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="pref_profile_data">profile_data</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pref_record_privacy">preference_record_privacy</string>
+    <string name="unit_system">unit_sys</string>
+    <string name="pref_comment">preference_comment</string>
+    <string name="settings_edit_prof_button">string settings_edit_prof_button</string>
+    <string name="settings_webpage_button">settings_webpage_button</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+
+</resources>
